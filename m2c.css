@@ -1,0 +1,81 @@
+body {
+	background-color: #222222;
+	margin: 0px;
+}
+
+.header {
+    width: 100%;
+    padding-left: 20px;
+    box-shadow: 0 3px 4px rgba(10,10,10,0.9);
+    color: rgba(255,255,255, 0.9);
+    text-shadow: 1px 4px 6px #222222, 0 0 0 #000, 1px 4px 6px #222222;
+    font-family: Helvetica;
+    font-weight: regular;
+    font-size: 50px;
+}
+
+.content {
+	margin: 0 auto;
+	margin-top:  15px;
+  width:  90%;
+  height: 100%;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  color: rgba(255,255,255, 0.9);
+  text-shadow: 1px 1px 1px #222222;
+  font-family: sans-serif;
+  font-weight: regular;
+  font-size: 20 px; 
+}
+
+.record_element {
+  margin-top: 10px;
+	display: inline-block;
+  width: 622px;
+  height: 60px;
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+}
+
+.record_image {
+  width: 60px;
+  height: 60px;
+  float:left;
+  border-right: 1px solid rgba(0,0,0,0.8);
+}
+
+.record_caption{
+  width: 400px;
+  height: 60px;
+  float:left;
+  margin-left: 60px;
+  color: rgba(255,255,255, 0.9);
+  text-shadow: 1px 4px 6px #222222, 0 0 0 #000, 1px 4px 6px #222222;
+  font-family: sans-serif;
+  font-weight: regular;
+  font-size: 25px;
+}
+
+.record_stat{
+  width: 60px;
+  height: 60px;
+  border-left: 1px solid rgba(0,0,0,0.8);
+  float: right;
+  color: rgba(255,255,255, 0.9);
+  text-shadow: 1px 4px 6px #222222, 0 0 0 #000, 1px 4px 6px #222222;
+  font-family: sans-serif;
+  font-weight: regular;
+  font-size: 25px;
+}
+
+.record_text{
+  margin-top: 15px;
+  float: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
